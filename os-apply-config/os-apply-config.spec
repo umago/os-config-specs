@@ -40,5 +40,5 @@ rm -fr %{buildroot}%{python_sitelib}/os_apply_config/tests
 %{python_sitelib}/os_apply_config
 
 %changelog
-* Tue Sep 06 2013 Lucas Alvares Gomes <lgomes@redhat.com> - 0.0.1-1
+* Tue Sep 06 2013 Lucas Alvares Gomes <lgomes@redhat.com> - 0.1.1-1
 - Initial version
