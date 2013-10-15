@@ -1,5 +1,5 @@
 Name:           os-apply-config
-Version:        0.1.1
+Version:        0.1.2
 Release:        1%{?dist}
 Summary:        Config files from cloud metadata
 
@@ -40,5 +40,7 @@ rm -fr %{buildroot}%{python_sitelib}/os_apply_config/tests
 %{python_sitelib}/os_apply_config
 
 %changelog
-* Tue Sep 06 2013 Lucas Alvares Gomes <lgomes@redhat.com> - 0.1.1-1
+* Tue Oct 15 2013 Lucas Alvares Gomes <lgomes@redhat.com> - 0.1.2-1
+- Update to version 0.1.2
+* Tue Sep 06 2013 Lucas Alvares Gomes <lgomes@redhat.com> - 0.0.1-1
 - Initial version

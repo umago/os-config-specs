@@ -1,5 +1,5 @@
 Name:           os-collect-config
-Version:        0.0.1
+Version:        0.1.2
 Release:        1%{?dist}
 Summary:        Collect and cache metadata, run hooks on changes.
 
@@ -61,5 +61,7 @@ fi
 %{_unitdir}/%{name}.service
 
 %changelog
+* Tue Oct 15 2013 Lucas Alvares Gomes <lgomes@redhat.com> - 0.1.2-1
+- Update to version 0.1.2
 * Tue Sep 06 2013 Lucas Alvares Gomes <lgomes@redhat.com> - 0.0.1-1
 - Initial version
